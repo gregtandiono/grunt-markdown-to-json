@@ -10,9 +10,9 @@
 
 module.exports = function(grunt) {
 
-  var m2j = require('markdown-to-json');
+  var m2j = require('markdown-to-json-with-content');
 
-  grunt.registerMultiTask('m2j', 
+  grunt.registerMultiTask('m2j',
     'YAML from Markdown files --> to single JSON file', function() {
 
     var options = this.options({
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     });
 
     grunt.verbose.writeflags(options, 'Options');
-    
+
     // Iterate over file groups and parse the markdown files
     this.files.forEach(function(f) {
       options.outfile = f.dest;
