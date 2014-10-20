@@ -1,4 +1,4 @@
-# grunt-markdown-to-json
+# grunt-markdown-to-json-with-content
 
 > Extract YAML front-matter from Markdown files to a single JSON file.
 
