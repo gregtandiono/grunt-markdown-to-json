@@ -1,5 +1,5 @@
 {
-  "name": "grunt-markdown-to-json",
+  "name": "grunt-markdown-to-json-with-content",
   "description": "Extract YAML front-matter from Markdown files to a single JSON file",
   "version": "0.4.2",
   "homepage": "https://github.com/scottstanfield/grunt-markdown-to-json",
@@ -43,6 +43,6 @@
     "json"
   ],
   "dependencies": {
-    "markdown-to-json": "~0.4.2"
+    "markdown-to-json-with-content": "~0.4.2"
   }
 }
